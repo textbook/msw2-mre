@@ -14,4 +14,7 @@ module.exports = {
 		TextEncoder,
 	},
 	testEnvironment: "jsdom",
+	testEnvironmentOptions: {
+		customExportConditions: [""],
+	},
 };
